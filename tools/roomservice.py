@@ -40,6 +40,9 @@ from xml.etree import ElementTree
 
 product = sys.argv[1];
 
+# We don't use roomservice in RTAndroid
+sys.exit()
+
 if len(sys.argv) > 2:
     depsonly = sys.argv[2]
 else:
